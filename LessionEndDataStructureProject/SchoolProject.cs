@@ -28,10 +28,10 @@ namespace LessionEndDataStructureProject
             }
 
             StreamWriter wrt = File.CreateText(path);
-            wrt.WriteLine("Ram, 30, CSE");
-            wrt.WriteLine("Sita, 25, ME");
-            wrt.WriteLine("Shyam, 35, Civil");
-            wrt.WriteLine("Geeta, 31, PE");
+            wrt.WriteLine("Ram, CSE");
+            wrt.WriteLine("Sita, ME");
+            wrt.WriteLine("Shyam, Civil");
+            wrt.WriteLine("Geeta, PE");
             wrt.Close();
             Console.WriteLine("Content has been written in the student file");
         }
