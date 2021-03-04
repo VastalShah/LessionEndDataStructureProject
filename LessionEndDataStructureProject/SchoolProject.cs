@@ -81,7 +81,7 @@ namespace LessionEndDataStructureProject
                 }
                 if (!flag)
                 {
-                    Console.WriteLine("No person found");
+                    Console.WriteLine("No student found");
                 }
             }
             else
